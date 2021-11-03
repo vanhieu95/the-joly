@@ -1,0 +1,40 @@
+@import "../abstracts/variable";
+@import "../abstracts/mixins";
+
+.contact {
+  background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+  color: #fff;
+
+  &__wrapper {
+    @include center-container;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+
+  &__logo {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  &__title {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  &__info {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    width: calc(50% - 2rem);
+  }
+
+  &__socials {
+    font-size: 2rem;
+  }
+
+  &__facebook {
+    color: #2d88ff;
+  }
+}

@@ -1,0 +1,12 @@
+@import "abstracts/variable";
+@import "base/reset";
+@import "base/typography";
+@import "block/element";
+@import "block/effect";
+@import "block/guide";
+@import "block/contact";
+@import "layout/navigation";
+
+main {
+  margin-top: 80px;
+}
