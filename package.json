@@ -1,0 +1,16 @@
+{
+  "name": "joly",
+  "version": "1.0.0",
+  "description": "The Joly Website",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://vanhieu95.github.io/the-joly/",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
